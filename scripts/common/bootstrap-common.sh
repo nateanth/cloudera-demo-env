@@ -7,7 +7,7 @@ date
 
 # Change localtime
 # Modiy this with your Timezone
-ln -sf  /usr/share/zoneinfo/Japan /etc/localtime
+ln -sf  /usr/share/zoneinfo/US/Eastern /etc/localtime
 
 # JDK8 installation
 yum remove --assumeyes *openjdk*
